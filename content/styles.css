@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+header {
+    background-color: #355a99;
+    padding: 10px 0;
+}
+header img {
+    width: 100%;
+    max-width: 281px;
+}
+a {
+    color: #71c1f2;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+main {
+    text-align: center;
+}
+main .container {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    font-weight: 200;
+    padding: 25px 20px;
+}
+main p {
+    margin: 2em 0;
+}
+main a:before {
+    background-image: url("images/sprite_arrow.svg");
+    background-repeat: no-repeat;
+    content: "";
+    width: 34px;
+    height: 33px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px 0 0;
+}
+a:hover:before {
+    background-position: -39px 0px;
+}
+main a {
+    margin-left: 50px;
+}
+footer .container {
+    border-top: solid 1px #efefef;
+    font-size: 14px;
+}
+footer .legal {
+    display: inline-block;
+    margin-left: 30px;
+}
+@media (min-width: 768px) {
+    main .container {
+        padding: 100px 0;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+        padding: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+    main .container {
+        padding: 150px 0;
+    }
+}
