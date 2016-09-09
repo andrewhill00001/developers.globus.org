@@ -1,7 +1,2 @@
-developers.globus.org
----------------------
-
-Run `make upload` to update content.
-You'll need AWS creds.
-
-That's all.
+Run `make` to update content.
+You need AWS creds.
